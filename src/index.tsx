@@ -10,8 +10,8 @@ const root = ReactDOM.createRoot(
 );
 
 const oidcConfig = {
-  authority: "http://localhost:8080//realms/samurai-test-realm",
-  client_id: "samurai-mdr-portal",
+  authority: "http://localhost:8080/realms/test-realm",
+  client_id: "test-client",
   redirect_uri: "http://localhost:3000/*",
   post_logout_redirect_uri: "http://localhost:3000"
   // ...
